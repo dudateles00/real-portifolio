@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Meu portifólio</title>
     <meta charset="UTF-8">
-
+    <link rel="personal icon" href="img/perfil-css.jpeg"
+    <title><strong><h1>Meu portifólio</h1></strong></title>
     <link rel="stylesheet" type="text/css"/>
-    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    <link rel ="stylesheet" href="style.css"/>
 
 </head>
 
@@ -15,15 +15,15 @@
             <ul id="navegaçao">
                 <li>
                     <a href="#formacao">
-                        formação
+                        <strong> Formação</strong>
                         </a>
                 </li>
                 <a href="#portifolio">
-                    portifólio
+                    <strong> Portifólio </strong>
                 </a>
                 <li>
                     <a href="#contato">
-                        Contato
+                        <strong> Contato </strong>
                     </a>
                 </li>
             </ul>
@@ -35,53 +35,43 @@
             <article class="article-container"
 
             <figure>
-                <img class="foto-perfil" src="./img/foto-perfil.png" alt="foto perfil"/>
+                <img class="foto-perfil" src="img/perfil-css.jpeg" alt="foto perfil"/>
             </figure>
             
             <div>
                 <h1>Ana Eduarda</h1>
-                <h2>Estudante de software</h2>
+            </br>
+                <h2>Estudante de Software</h2>
             </div>
 
             <p>
-                Olá! Me chamo Ana Eduarda, tenho 23 anos e moro na bahia, especificamente na cidade de Salvador.
+            </br>
+                Olá! Me chamo Ana Eduarda, tenho 23 anos, Sou Baiana e estudo desenvolvimento de software no Núcleo PretaLab.
             </p>
           </article>  
         </section>
 
         <div class="sub-section">
             <section id="formatacao">
-                <h3>Formatação</h3>
+                <h3>Formação</h3>
+            </br>
 
                 <ul>
                     <li>
-                        <h4>ciclo Formativo Básico</h4>
-                        <a href="www.pretalab.com" target="_blank">Pretalab</a>
+                        <h4>Ciclo Formativo Básico</h4>
+                        <p>Bootcamp ofertado pelo núcleo PretaLab, no qual aprendo de forma introdutória linguagens como JAVA, HTML e CSS.</p>
+                        <a href="https://www.pretalab.com/rede/ana-eduarda-teles-902" target="_blank">Pretalab</a>
                         <p class="subparagrafo">
-                            Quando o verão chegar<br>
-                            Quero te encontrar<br>
-                            No calor do sol e o mar<br>
-                            Namoro na areia<br>
-
-                            Conchas, ondas, sonhos<br>
-                            Canções, laços, beijos<br>
-                            Nós dois nos amando loucamente<br>
-                            Ascendendo a cidade dos poetas<br>
+                    
+                           
                         </p>
                     </li>
                     <li>
-                        <h4>analise o desenvilvimento de sistemas</h4>
-                        <a href="www.pretalab.com" target="_blank">IFSP</a>
+                    </br>
+                        <h4>Análise e desenvolvimento de sistemas</h4>
+                        <a href="www.pretalab.com" target="_blank">UFBA</a>
                         <p class="subparagrafo">
-                            Quando o verão chegar<br>
-                            Quero te encontrar<br>
-                            No calor do sol e o mar<br>
-                            Namoro na areia<br>
-
-                            Conchas, ondas, sonhos<br>
-                            Canções, laços, beijos<br>
-                            Nós dois nos amando loucamente<br>
-                            Ascendendo a cidade dos poetas<br>
+                            <small> Em desenvolvimento</small>
                         </p>      
                     </li>
                 </ul>
@@ -91,41 +81,65 @@
 
         <section id="portifolio">
             <h3>Meus projetos</h3>
+        </br>
 
             <ul>
                 <li>
-                    <h4>Calculadora</h4>
+                    <h4>Projetos</h4>
                     <small>Projeto em Javascript</small> <br/>
                     <a href="https://www.pretalab.com" target="_blank">
-                        Link para o projeto 
+                        Link para o projeto em andamento...
                     </a>
                     <p class="subparagrafo">
-                        Proejto desenvolvido durante p Ciclo Fprmativo Básico, 
+                        Projeto desenvolvido durante o Ciclo Formativo Básico, 
                         da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento web - HTML e CSS.
                     </p>
                 </li>
                 <li>
+                </br>
                     <h4>Projeto de página e-commerce</h4>
-                    <small>Projeto em HTML e CSS</small>
+                    <small>Projeto em HTML e CSS</small> </br>
                     <a href="https://www.pretalab.com" target="_blank">
-                        Link para o projeto
+                        Link para o projeto em andamento...
                     </a>
                     <p class="subparagrafo">
                         Projeto desenvolvido durante o Ciclo Formativo Básico,
-                         da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvilvimento web - HTML e CSS.
+                         da Pretalab com a finalidade de aprimorar os conhecimentos em ferramentas de desenvolvimento web - HTML e CSS.
                     </p>
                 </li>
 
         </section>
     </main>
 
+
+    <section id="form">
+        <form>
+            <p> Entre em contato comigo atráves do formulário:</p></br>
+            <label>nome:</label>
+            <input type="text" id="nome" placeholder="digite o seu nome"/>
+       <br>
+
+       <label>email:</label>
+       <input type="email" id="email" placeholder="digite seu email"/>
+       <br/>
+       <br/>
+
+       <label>mensagem:  </label>
+       <textarea id="mensagem"></textarea>
+       <br/>
+
+       <button type="submit">enviar</button>
+        </form>
+    </section>
+    </body>   
+
     <footer>
         <ol id="contato">
             <li>
-                <i class="fas fa-envelope-square"></i> dudateles44@gmail.com
+                <i class="fas fa-envelope-square"></i> <small>Email: dudateles44@gmail.com</small>
             </li>
             <li>
-                <i class="fab fa-github-square"></i> dudateles00
+                <i class="fab fa-github-square"></i> <small>Github: dudateles00</small>
             </li>
         </ol>
     </footer>
